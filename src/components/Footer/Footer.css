@@ -1,0 +1,32 @@
+.footerNavBar {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 20px;
+    justify-content: center;
+}
+
+.footerNavItem {
+    height: 40px;
+    width: 200px;
+    margin: 0 4px 0 0;
+    border-radius: 3px;
+    background-color: rgb(84, 83, 82);
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:rgb(255, 121, 5);
+    font-size: 25px;
+    padding: 5px;
+}
+a:hover {
+    text-decoration: none;
+    color:rgb(255, 121, 5);
+    cursor:pointer;  
+}
+.footerNavItem:hover {
+   background-color: whitesmoke;
+   cursor:pointer; 
+}
